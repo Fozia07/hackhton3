@@ -11,11 +11,11 @@ import pic8 from '@/app/public/fixed-height (8).png';
 
 function List(){
   return (
-    <div className='max-w-screen-2xl h-auto mx-auto my-16'>
+    <div className='max-w-screen-2xl lg:h-[1200px] mt-5 mx-auto  '>
       <div className='w-full'>
-        <div className='w-1/4 h-20 mx-1/4 ml-96 '>
+        <div className='w-72 h-40 lg:max-w-2xl lg:h-[102px] px-8 py-20 md:px-16 lg:px-32 xl:px-64 text-center'>
            <h1 className="montserrat-700 text-2xl  "> Featured Products</h1>
-           <h1>BESTSELLER PRODUCTS</h1>
+           <h1 className='montserrat-700 text-2xl font-bold'>BESTSELLER PRODUCTS</h1>
            <p></p>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-20'>

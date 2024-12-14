@@ -5,3 +5,10 @@
 body {
   font-family: var(--font-montserrat), sans-serif;
 }
+
+.color{
+  background-color: rgb(35,133,109,1)
+}
+.button{
+  background-color: rgb(45,192,113,1);
+}

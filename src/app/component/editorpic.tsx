@@ -8,15 +8,15 @@ import card4 from '@/app/public/col-md-6.png'
 
 function Editorpic() {
   return (
-    <div className='max-w-screen-2xl h-auto mx-auto mt-96 '>
-      <div className='w-4/5'>
-            <div className='text-center'>
-                <h1 className='montserrat-700 font-bold text-2xl '>EDITORS PICK</h1>
-                <p className='montserrat-400  text-sm'>Problems trying to resolve the conflict between </p>
+    <div className='max-w-screen-2xl h-[1000] xl:h-[852px] pt-20 md:pt-40  mx-auto '>
+      <div className='container w-full px-4 absolute'>
+            <div className='text-center ml-24 xl:ml-80 flex flex-col justify-center'>
+                <h3 className='montserrat-700 font-bold text-2xl text-center md:text-4xl lg:text-6xl'>EDITORS PICK</h3>
+                <p className='montserrat-400  text-sm md:text-lg lg:text-xl text-cen ter'>Problems trying to resolve the conflict between </p>
             </div>
             <div>
 
-        <div className='grid grid-cols-2 gap-5 md:grid-cols-4 mt-20 mx-20'>
+        <div className='max-w-screen-xl h-[500px] grid grid-cols-2 gap-6 mt-4 px-4 md:grid-cols-4 '>
             <div className="col-span-2 row-span-2">
            <Image
             src={card4}

@@ -4,8 +4,8 @@ import pic1 from '@/app/public/col-md-4 (5).png'
 import { ChevronRight } from 'lucide-react'
 function Feature() {
   return (
-    <div className='max-w-screen-2xl h-auto mx-auto bg-slate-400 scroll-mt-96'>
-        <div className='w-full bg-white shadow-md'>
+    <div className='max-w-screen-2xl h-auto mx-auto bg-slate-400 my-10 md:my-20 lg:my-40 xl:my-80'>
+        <div className='w-full bg-white shadow-md '>
             <div className='grid grid-cols-1 md:grid-cols-2'>
                 {/* righthand side */}
                 <div>
