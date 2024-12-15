@@ -17,7 +17,7 @@ function Navbar() {
          {/* Navigation Links */}
          <ul className=" hidden pt-56 md:pt-0 md:flex space-x-6">
           <li className="text-black-700 hover:text-blue-600 montserrat-700 text-2xl md:text-sm"><Link href="/">Home</Link></li>
-          <li className="text-black-700 hover:text-blue-600 montserrat-700 text-2xl md:text-sm"><Link href="/shop">Shop</Link></li>
+          <li className="text-black-700 hover:text-blue-600 montserrat-700 text-2xl md:text-sm"><Link href="/product">Shop</Link></li>
           <li className="text-black-700 hover:text-blue-600 monserrat-700 text-2xl md:text-sm"><ChevronDown /></li>
           <li className="text-black-700 hover:text-blue-600 montserrat text-2xl md:text-sm"><Link href="/about">About</Link></li>
           <li className="text-black-700 hover:text-blue-600 montserrat text-2xl md:text-sm"><Link href="/gallary">Blog</Link></li>
