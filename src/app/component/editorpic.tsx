@@ -8,7 +8,7 @@ import card4 from '@/app/public/col-md-6.png'
 
 function Editorpic() {
   return (
-    <div className='max-w-screen-2xl h-[1000] xl:h-[852px] pt-20 md:pt-40  mx-auto '>
+    <div className='max-w-screen-2xl h-[1000] xl:h-[852px] py-20 md:py-30 lg:py-40 mx-auto '>
       <div className='container w-full px-4 absolute'>
             <div className='text-center ml-24 xl:ml-80 flex flex-col justify-center'>
                 <h3 className='montserrat-700 font-bold text-2xl text-center md:text-4xl lg:text-6xl'>EDITORS PICK</h3>

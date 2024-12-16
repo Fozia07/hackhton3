@@ -7,7 +7,7 @@ import React from 'react'
 
 function Team() {
   return (
-    <div className='max-w-screen-2xl mx-auto h-auto'>
+    <div className='max-w-screen-2xl mx-auto h-auto  px-10 mt-48 md:mt-72 lg:mt-96 xl:mt-auto md:px-20 lg:px-40'>
       <div className='w-full'>
        <div className="flex flex-wrap -m-4">
       <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">

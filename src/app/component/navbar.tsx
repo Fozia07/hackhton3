@@ -21,7 +21,7 @@ function Navbar() {
           <li className="text-black-700 hover:text-blue-600 monserrat-700 text-2xl md:text-sm"><ChevronDown /></li>
           <li className="text-black-700 hover:text-blue-600 montserrat text-2xl md:text-sm"><Link href="/about">About</Link></li>
           <li className="text-black-700 hover:text-blue-600 montserrat text-2xl md:text-sm"><Link href="/gallary">Blog</Link></li>
-          <li className="text-black-700 hover:text-blue-600 montserrat text-2xl md:text-sm"><Link href="/">Contact</Link></li>
+          <li className="text-black-700 hover:text-blue-600 montserrat text-2xl md:text-sm"><Link href="/contact">Contact</Link></li>
           <li className="text-black-700 hover:text-blue-600 montserrat text-2xl md:text-sm"><Link href="/">Pages</Link></li>
           
         </ul>
