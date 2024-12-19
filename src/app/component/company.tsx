@@ -16,7 +16,7 @@ not act that way.</p>
         </div>
       </div>
       <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <Image className="object-cover object-center rounded" alt="hero" src={pic1}></Image>
+        <Image className="object-cover object-center rounded-full" alt="hero" src={pic1}></Image>
       </div>
     </div>
   </section>

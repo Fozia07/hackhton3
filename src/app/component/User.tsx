@@ -5,9 +5,9 @@ import pic2 from '@/app/public/media (3).png';
 import pic3 from '@/app/public/media (5).png';
 import React from 'react'
 
-function Team() {
+function User() {
   return (
-    <div className='max-w-screen-2xl mx-auto h-auto  px-10 mt-48 md:mt-72 lg:mt-96 xl:mt-auto md:px-20 lg:px-40'>
+    <div className='max-w-screen-2xl mx-auto h-auto px-20 py-40 mt-28 md:py-48 lg:py-60 md:mt-72 lg:mt-96 '>
       <div className='w-full'>
        <div className="flex flex-wrap -m-4">
       <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
@@ -55,4 +55,4 @@ function Team() {
   )
 }
 
-export default Team
+export default User

@@ -4,8 +4,8 @@ import img1 from '@/app/public/asian-woman-man-with-winter-clothes 1.png'
 
 function Container1() {
   return (
-    <section className='bg-slate-50'>
-  <div className="container mx-auto flex justify-center px-5   md:justify-start md:flex-row flex-col items-center">
+    <section className='bg-slate-50 pb-20 '>
+  <div className=" mx-auto flex justify-center px-5   md:justify-start md:flex-row flex-col items-center">
     <div className="">
       <Image className="object-cover object-center rounded" alt="hero" src={img1}></Image>
     </div>

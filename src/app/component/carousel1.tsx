@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
-import img1 from '@/app/public/card-item (1).png';
+import img1 from '@/app/public/shop-hero-2-png-picture-1.png';
 function Carousel1() {
   return (
-    <div className='max-w-screen-2xl h-[1300px] py-12 my-20 mx-auto'>
+    <div className='max-w-screen-2xl py-12 my-20 mx-auto'>
       <div className='w-full h-[1230px] md:h-[600px] color rounded-md border-solid border caret-lime-50 px-14 py-28 grid grid-cols-1 md:grid-cols-2'>
         <div className='max-w-xl h-[499px] gap-9'>
            <h3 className='montserratt-400 text-xl text-yellow-50'>SUMMER 2020</h3>

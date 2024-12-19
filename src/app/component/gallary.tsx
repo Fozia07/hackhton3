@@ -12,6 +12,7 @@ import card9 from '@/app/public/fixed-height (5).png'
 import card10 from '@/app/public/fixed-height (6).png'
 import card11 from '@/app/public/fixed-height (7).png'
 import card12 from '@/app/public/product-cover-5.png'
+import Link from 'next/link'
 
 function Gallary() {
   return (
@@ -19,9 +20,9 @@ function Gallary() {
   <div className="container px-5 py-24 mx-auto">
      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
       <div className=" p-4 w-full">
-        <a className="block relative rounded overflow-hidden">
-          <Image alt="ecommerce"  src={card1}></Image>
-        </a>
+        <Link href="" className="block relative rounded overflow-hidden">
+         <Image alt="ecommerce"  src={card1}></Image></Link>
+        
         <div className="mt-4 ">
           <h3 className="text-black  text-sm montserrat-700 font-semibold ">Graphic Design</h3>
           <h2 className="text-slate-600 title-font text-lg montserrat-400 font-medium">English Department</h2>
@@ -29,9 +30,9 @@ function Gallary() {
         </div>
       </div>
       <div className=" p-4 w-full">
-        <a className="block relative rounded overflow-hidden">
+        <Link href="" className="block relative rounded overflow-hidden">
           <Image alt="ecommerce" className='object-cover' src={card2}></Image>
-        </a>
+        </Link>
         <div className="mt-4">
         <h3 className="text-black text-sm montserrat-700 font-semibold ">Graphic Design</h3>
         <h2 className="text-slate-600 title-font text-lg montserrat-400 font-medium">English Department</h2>
@@ -39,9 +40,9 @@ function Gallary() {
         </div>
       </div>
       <div className=" p-4 w-full">
-        <a className="block relative rounded overflow-hidden">
+        <Link href='' className="block relative rounded overflow-hidden">
           <Image alt="ecommerce"  src={card3}></Image>
-        </a>
+        </Link>
         <div className="mt-4">
         <h3 className="text-black text-sm montserrat-700 font-semibold ">Graphic Design</h3>
         <h2 className="text-slate-600 title-font text-lg montserrat-400 font-medium">English Department</h2>
@@ -49,9 +50,9 @@ function Gallary() {
         </div>
       </div>
       <div className=" p-4 w-full">
-        <a className="block relative rounded overflow-hidden">
+        <Link href="" className="block relative rounded overflow-hidden">
           <Image alt="ecommerce" src={card4}></Image>
-        </a>
+        </Link>
         <div className="mt-4">
         <h3 className="text-black text-sm montserrat-700 font-semibold ">Graphic Design</h3>
         <h2 className="text-slate-600 title-font text-lg montserrat-400 font-medium">English Department</h2>
@@ -59,9 +60,9 @@ function Gallary() {
         </div>
       </div>
       <div className=" p-4 w-full">
-        <a className="block relative rounded overflow-hidden">
+        <Link href='' className="block relative rounded overflow-hidden">
           <Image alt="ecommerce" src={card5}></Image>
-        </a>
+        </Link>
         <div className="mt-4">
         <h3 className="text-black text-sm montserrat-700 font-semibold ">Graphic Design</h3>
         <h2 className="text-slate-600 title-font text-lg montserrat-400 font-medium">English Department</h2>
@@ -69,9 +70,9 @@ function Gallary() {
         </div>
       </div>
       <div className=" p-4 w-full">
-        <a className="block relative rounded overflow-hidden">
+        <Link href='' className="block relative rounded overflow-hidden">
           <Image alt="ecommerce" src={card6}></Image>
-        </a>
+        </Link>
         <div className="mt-4">
         <h3 className="text-black text-sm montserrat-700 font-semibold ">Graphic Design</h3>
         <h2 className="text-slate-600 title-font text-lg montserrat-400 font-medium">English Department</h2>
@@ -79,9 +80,9 @@ function Gallary() {
         </div>
       </div>
       <div className=" p-4 w-full">
-        <a className="block relative rounded overflow-hidden">
+        <Link href='' className="block relative rounded overflow-hidden">
           <Image alt="ecommerce" src={card7}></Image>
-        </a>
+        </Link>
         <div className="mt-4">
         <h3 className="text-black text-sm montserrat-700 font-semibold ">Graphic Design</h3>
         <h2 className="text-slate-600 title-font text-lg montserrat-400 font-medium">English Department</h2>
@@ -89,9 +90,9 @@ function Gallary() {
         </div>
       </div>
       <div className=" p-4 w-full">
-        <a className="block relative rounded overflow-hidden">
+        <Link href='' className="block relative rounded overflow-hidden">
           <Image alt="ecommerce" src={card8}></Image>
-        </a>
+        </Link>
         <div className="mt-4">
         <h3 className="text-black text-sm montserrat-700 font-semibold ">Graphic Design</h3>
         <h2 className="text-slate-600 title-font text-lg montserrat-400 font-medium">English Department</h2>
@@ -99,9 +100,9 @@ function Gallary() {
         </div>
       </div> 
       <div className="p-4 w-full">
-        <a className="block relative rounded overflow-hidden">
+        <Link href='' className="block relative rounded overflow-hidden">
           <Image alt="ecommerce" src={card9}></Image>
-        </a>
+        </Link>
         <div className="mt-4">
         <h3 className="text-black text-sm montserrat-700 font-semibold ">Graphic Design</h3>
         <h2 className="text-slate-600 title-font text-lg montserrat-400 font-medium">English Department</h2>
@@ -109,9 +110,9 @@ function Gallary() {
         </div>
       </div>
       <div className=" p-4 w-full">
-        <a className="block relative rounded overflow-hidden">
+        <Link href='' className="block relative rounded overflow-hidden">
           <Image alt="ecommerce" src={card10}></Image>
-        </a>
+        </Link>
         <div className="mt-4">
         <h3 className="text-black text-sm montserrat-700 font-semibold ">Graphic Design</h3>
         <h2 className="text-slate-600 title-font text-lg montserrat-400 font-medium">English Department</h2>
@@ -119,9 +120,9 @@ function Gallary() {
         </div>
       </div>
       <div className=" p-4 w-full">
-        <a className="block relative rounded overflow-hidden">
+        <Link href='' className="block relative rounded overflow-hidden">
           <Image alt="ecommerce" src={card11}></Image>
-        </a>
+        </Link>
         <div className="mt-4">
         <h3 className="text-black text-sm montserrat-700 font-semibold ">Graphic Design</h3>
         <h2 className="text-slate-600 title-font text-lg montserrat-400 font-medium">English Department</h2>
@@ -129,9 +130,9 @@ function Gallary() {
         </div>
       </div>
       <div className="p-4 w-full">
-        <a className="block relative rounded overflow-hidden">
+        <Link href='' className="block relative rounded overflow-hidden">
           <Image alt="ecommerce" src={card12}></Image>
-        </a>
+        </Link>
         <div className="mt-4">
         <h3 className="text-black text-sm montserrat-700 font-semibold ">Graphic Design</h3>
         <h2 className="text-slate-600 title-font text-lg montserrat-400 font-medium">English Department</h2>

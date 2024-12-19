@@ -1,17 +1,17 @@
 import React from 'react'
-import Gallary from '../component/gallary'
 import Top from '../component/top'
 import Section1 from '../component/section1'
+import Gallary from '../component/gallary'
 
-function Product() {
+function Page() {
   return (
-    <div className='mt-56'>
-        <Top/>
-        <Section1 />
-        <Gallary/>
-      
+    <div>
+       <Top/>
+       <Section1 />
+       <Gallary />
+
     </div>
   )
 }
 
-export default Product
+export default Page

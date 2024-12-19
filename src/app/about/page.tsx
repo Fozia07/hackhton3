@@ -1,10 +1,10 @@
 import React from 'react'
 import Company from '../component/company'
 import Vedio from '../component/vedio'
-import Team from '../component/about-team'
-import Section1 from '../component/section1'
 import Section2 from '../component/section2'
 import Views from '../component/Views'
+import User from '../component/User'
+import Section1 from '../component/section1'
 
 function About() {
   return (
@@ -12,9 +12,9 @@ function About() {
        <Company/>
        <Section2/>
        <Views/>
-       <Vedio />
-       <Team />
        <Section1 />
+       <Vedio />
+       <User />
     </div>
   )
 }
