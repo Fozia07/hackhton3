@@ -1,8 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import img1 from '@/app/public/col-md-4 (8).png'
-import img2 from '@/app/public/col-md-4 (9).png'
-import img3 from '@/app/public/col-md-4 (10).png'
+
 
 function Email() {
   return (
@@ -13,9 +11,9 @@ function Email() {
         with big ideas</h1> 
        </div>
        <div className='grid grid-cols-1 md:grid-cols-3 mt-20'>
-        <Image src={img1} alt=''></Image>
-        <Image src={img2} alt=''></Image>
-        <Image src={img3} alt=''></Image>
+        <Image src={'/images/col-md-4 (8).png'} width={329} height={343} alt=''></Image>
+        <Image src={'/images/col-md-4 (9).png'} width={329} height={343} alt=''></Image>
+        <Image src={'/images/col-md-4 (10).png'} width={329} height={343} alt=''></Image>
        </div>
     </div>
   )

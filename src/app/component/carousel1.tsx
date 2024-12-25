@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import img1 from '@/app/public/shop-hero-2-png-picture-1.png';
 function Carousel1() {
   return (
     <div className='max-w-screen-2xl py-12 my-20 mx-auto'>
@@ -14,7 +13,7 @@ function Carousel1() {
            <button className='w[184px] h-[52px] rounded-md px-10 py-4 button text-yellow-50'></button>
         </div>
         <div className='w-[416px] h-[681px]'>
-          <Image src={img1} alt=''></Image>
+          <Image src='/images/shop-hero-2-png-picture-1.png' width={443} height={685} alt=''></Image>
 
         </div>
       </div>

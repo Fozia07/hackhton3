@@ -1,11 +1,10 @@
 import { ChevronDownIcon, ChevronRight, LayoutGrid, List } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
-import col from '@/app/public/col-md-4.png'
-import col1 from '@/app/public/col-md-4 (4).png'
-import col2 from '@/app/public/col-md-4 (3).png'
-import col3 from '@/app/public/col-md-4 (2).png'
-import col4 from '@/app/public/col-md-4 (1).png'
+
+
+
+
 function Top() {
   return (
     <div className='max-w-screen-2xl h-auto mx-auto mt-6'>
@@ -18,12 +17,12 @@ function Top() {
           <h3 className='monserrat-400 text-base'>Shop</h3>
           </div>
         </div>
-        <div className='grid grid-cols-1 lg:grid-cols-5 mx-5 gap-2 mt-7'>
-          <Image src={col} alt=""></Image>
-          <Image src={col4} alt=""></Image>
-          <Image src={col3} alt=""></Image>
-          <Image src={col2} alt=""></Image>
-          <Image src={col1} alt=""></Image>
+        <div className='grid grid-cols-1 lg:grid-cols-5 px-12 mx-5 gap-2 mt-7'>
+          <Image src='/images/col-md-4.png' width={205} height={223}  alt=""></Image>
+          <Image src='/images/col-md-4 (1).png' width={205} height={223} alt=""></Image>
+          <Image src='/images/col-md-4 (2).png'  width={205} height={223} alt=""></Image>
+          <Image src='/images/col-md-4 (3).png' width={205} height={223} alt=""></Image>
+          <Image src='/images/col-md-4 (4).png' width={205} height={223} alt=""></Image>
         </div>
         <div className=' grid grid-cols-1 md:grid-cols-3 gap-y-8 px-7 m-4'>
           <h3 className='montserrat-400 text-base'>Showing all 12 results</h3>

@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
-import img1 from '@/app/public/asian-woman-man-with-winter-clothes 1.png'
+
 
 function Container1() {
   return (
     <section className='bg-slate-50 pb-20 '>
   <div className=" mx-auto flex justify-center px-5   md:justify-start md:flex-row flex-col items-center">
     <div className="">
-      <Image className="object-cover object-center rounded" alt="hero" src={img1}></Image>
+      <Image className="object-cover object-center rounded" alt="hero" src={'/images/asian-woman-man-with-winter-clothes 1.png'} width={725} height={774}></Image>
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-16 md:pl-12 flex flex-col md:items-start md:text-left items-center text-center">
     <h3 className='montserrat-400 text-sm md:text-base '>SUMMER 2020</h3>

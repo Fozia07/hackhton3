@@ -1,8 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import img1 from '@/app/public/unsplash_tVEqStC2uz8.png'
-import img2 from '@/app/public/unsplash_hHdHCfAifHU.png'
-import img3 from '@/app/public/unsplash_dEGu-oCuB1Y.png'
+
 function Feature1() {
   return (
  <section className="max-w-screen-2xl mx-auto py-20 ">
@@ -16,7 +14,8 @@ function Feature1() {
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
      <div className="bg-white shadow-lg rounded-lg overflow-hidden">
         <div className="relative w-full h-56 object-contain">
-          <Image src={img1}
+          <Image src={'/images/unsplash_tVEqStC2uz8.png'}
+            width={348} height={300}
             alt="Feature One"
             className="object-cover w-full h-full"
           />
@@ -38,7 +37,8 @@ function Feature1() {
 
     <div className="bg-white shadow-lg rounded-lg overflow-hidden">
         <div className="relative w-full h-56 object-contain">
-          <Image src={img2}
+          <Image src={'/images/unsplash_hHdHCfAifHU.png'}
+            width={348} height={300}
             alt="Feature One"
             className="object-cover w-full h-full"
           />
@@ -58,7 +58,8 @@ function Feature1() {
       </div>
       <div className="bg-white shadow-lg rounded-lg overflow-hidden">
         <div className="relative w-full h-56 object-contain">
-          <Image src={img3}
+          <Image src={'/images/unsplash_dEGu-oCuB1Y.png'}
+           width={348} height={300}
             alt="Feature One"
             className="object-cover w-full h-full"
           />

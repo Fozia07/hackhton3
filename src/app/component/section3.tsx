@@ -1,7 +1,8 @@
 import { Facebook, Instagram, Twitter } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
-import pic1 from '@/app/public/asian-woman-man-with-winter-clothes 1.png'
+
+
 
 function Section3() {
   return (
@@ -25,7 +26,7 @@ not act that way.</p>
         </div>
       </div>
       <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <Image className="object-cover object-center rounded" alt="hero" src={pic1}></Image>
+        <Image className="object-cover object-center rounded" alt="hero" src='/images/asian-woman-man-with-winter-clothes 1.png' width={375.73} height={439.19}></Image>
       </div>
     </div>
   </section>

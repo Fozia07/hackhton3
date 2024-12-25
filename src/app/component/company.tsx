@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import React from 'react'
-import pic1 from '@/app/public/technology 1.png'
+import React from 'react';
+
 function Company() {
   return (
     <section className="max-w-screen-2xl mx-auto my-10 px-10 md:px-20 lg:px-40">
@@ -16,7 +16,7 @@ not act that way.</p>
         </div>
       </div>
       <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <Image className="object-cover object-center rounded-full" alt="hero" src={pic1}></Image>
+        <Image className="object-cover object-center rounded-full" alt="hero" src={'/images/technology 1.png'} width={375} height={439}></Image>
       </div>
     </div>
   </section>

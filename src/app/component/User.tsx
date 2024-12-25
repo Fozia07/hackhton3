@@ -1,8 +1,5 @@
 import { Facebook, Instagram, Twitter } from 'lucide-react'
 import Image from 'next/image'
-import pic1 from '@/app/public/team-1-user-2.jpg';
-import pic2 from '@/app/public/media (3).png';
-import pic3 from '@/app/public/media (5).png';
 import React from 'react'
 
 function User() {
@@ -12,7 +9,7 @@ function User() {
        <div className="flex flex-wrap -m-4">
       <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
         <div className="h-full text-center">
-          <Image alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={pic1}></Image>
+          <Image alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={'/images/team-1-user-3.jpg'} width={316} height={231}></Image>
           <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
           <h2 className="text-black montserrat-400 text-sm">UserName</h2>
           <p className="text-gray-500 montserrat-400 text-sm">Professional</p>
@@ -25,7 +22,7 @@ function User() {
       </div>
       <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
         <div className="h-full text-center">
-          <Image alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={pic2}></Image>
+          <Image alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={'/images/team-1-user-2.jpg'} width={316} height={237}></Image>
           <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
           <h2 className="text-black montserrat-400 text-sm">UserName</h2>
           <p className="text-gray-500 montserrat-400 text-sm">Professional</p>
@@ -38,7 +35,7 @@ function User() {
       </div>
       <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
         <div className="h-full text-center">
-          <Image alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={pic3}></Image>
+          <Image alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={'/images/team-1-user-2 (2).jpg'} width={329} height={237}></Image>
           <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
           <h2 className="text-black montserrat-400 text-sm">UserName</h2>
           <p className="text-gray-500 montserrat-400 text-sm">Professional</p>

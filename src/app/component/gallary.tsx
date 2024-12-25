@@ -1,17 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import card1 from '@/app/public/fixed-height.png'
-import card2 from '@/app/public/fixed-height (1).png'
-import card3 from '@/app/public/product-cover-5 (1).png'
-import card4 from '@/app/public/product-cover-5 (2).png'
-import card5 from '@/app/public/product-cover-5 (3).png'
-import card6 from '@/app/public/fixed-height (2).png'
-import card7 from '@/app/public/fixed-height (3).png'
-import card8 from '@/app/public/fixed-height (4).png'
-import card9 from '@/app/public/fixed-height (5).png'
-import card10 from '@/app/public/fixed-height (6).png'
-import card11 from '@/app/public/fixed-height (7).png'
-import card12 from '@/app/public/product-cover-5.png'
 import Link from 'next/link'
 
 function Gallary() {
@@ -21,7 +9,7 @@ function Gallary() {
      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
       <div className=" p-4 w-full">
         <Link href="" className="block relative rounded overflow-hidden">
-         <Image alt="ecommerce"  src={card1}></Image></Link>
+         <Image alt="ecommerce"  src={'/images/fixed-height.png'} width={239} height={300}></Image></Link>
         
         <div className="mt-4 ">
           <h3 className="text-black  text-sm montserrat-700 font-semibold ">Graphic Design</h3>
@@ -31,7 +19,7 @@ function Gallary() {
       </div>
       <div className=" p-4 w-full">
         <Link href="" className="block relative rounded overflow-hidden">
-          <Image alt="ecommerce" className='object-cover' src={card2}></Image>
+          <Image alt="ecommerce" className='object-cover' src={'/images/fixed-height (1).png'}width={239} height={300}></Image>
         </Link>
         <div className="mt-4">
         <h3 className="text-black text-sm montserrat-700 font-semibold ">Graphic Design</h3>
@@ -41,7 +29,7 @@ function Gallary() {
       </div>
       <div className=" p-4 w-full">
         <Link href='' className="block relative rounded overflow-hidden">
-          <Image alt="ecommerce"  src={card3}></Image>
+          <Image alt="ecommerce"  src={'/images/product-cover-5 (1).png'}width={239} height={300}></Image>
         </Link>
         <div className="mt-4">
         <h3 className="text-black text-sm montserrat-700 font-semibold ">Graphic Design</h3>
@@ -51,7 +39,7 @@ function Gallary() {
       </div>
       <div className=" p-4 w-full">
         <Link href="" className="block relative rounded overflow-hidden">
-          <Image alt="ecommerce" src={card4}></Image>
+          <Image alt="ecommerce" src={'/images/product-cover-5 (2).png'}width={239} height={300}></Image>
         </Link>
         <div className="mt-4">
         <h3 className="text-black text-sm montserrat-700 font-semibold ">Graphic Design</h3>
@@ -61,7 +49,7 @@ function Gallary() {
       </div>
       <div className=" p-4 w-full">
         <Link href='' className="block relative rounded overflow-hidden">
-          <Image alt="ecommerce" src={card5}></Image>
+          <Image alt="ecommerce" src={'/images/product-cover-5 (3).png'}width={239} height={300}></Image>
         </Link>
         <div className="mt-4">
         <h3 className="text-black text-sm montserrat-700 font-semibold ">Graphic Design</h3>
@@ -71,7 +59,7 @@ function Gallary() {
       </div>
       <div className=" p-4 w-full">
         <Link href='' className="block relative rounded overflow-hidden">
-          <Image alt="ecommerce" src={card6}></Image>
+          <Image alt="ecommerce" src={'/images/fixed-height (2).png'}width={239} height={300}></Image>
         </Link>
         <div className="mt-4">
         <h3 className="text-black text-sm montserrat-700 font-semibold ">Graphic Design</h3>
@@ -81,7 +69,7 @@ function Gallary() {
       </div>
       <div className=" p-4 w-full">
         <Link href='' className="block relative rounded overflow-hidden">
-          <Image alt="ecommerce" src={card7}></Image>
+          <Image alt="ecommerce" src={'/images/fixed-height (3).png'}width={239} height={300}></Image>
         </Link>
         <div className="mt-4">
         <h3 className="text-black text-sm montserrat-700 font-semibold ">Graphic Design</h3>
@@ -91,7 +79,7 @@ function Gallary() {
       </div>
       <div className=" p-4 w-full">
         <Link href='' className="block relative rounded overflow-hidden">
-          <Image alt="ecommerce" src={card8}></Image>
+          <Image alt="ecommerce" src={'/images/fixed-height (4).png'}width={239} height={300}></Image>
         </Link>
         <div className="mt-4">
         <h3 className="text-black text-sm montserrat-700 font-semibold ">Graphic Design</h3>
@@ -101,7 +89,7 @@ function Gallary() {
       </div> 
       <div className="p-4 w-full">
         <Link href='' className="block relative rounded overflow-hidden">
-          <Image alt="ecommerce" src={card9}></Image>
+          <Image alt="ecommerce" src={'/images/fixed-height (5).png'}width={239} height={300}></Image>
         </Link>
         <div className="mt-4">
         <h3 className="text-black text-sm montserrat-700 font-semibold ">Graphic Design</h3>
@@ -111,7 +99,7 @@ function Gallary() {
       </div>
       <div className=" p-4 w-full">
         <Link href='' className="block relative rounded overflow-hidden">
-          <Image alt="ecommerce" src={card10}></Image>
+          <Image alt="ecommerce" src={'/images/fixed-height (6).png'}width={239} height={300}></Image>
         </Link>
         <div className="mt-4">
         <h3 className="text-black text-sm montserrat-700 font-semibold ">Graphic Design</h3>
@@ -121,7 +109,7 @@ function Gallary() {
       </div>
       <div className=" p-4 w-full">
         <Link href='' className="block relative rounded overflow-hidden">
-          <Image alt="ecommerce" src={card11}></Image>
+          <Image alt="ecommerce" src={'/images/fixed-height (7).png'}width={239} height={300}></Image>
         </Link>
         <div className="mt-4">
         <h3 className="text-black text-sm montserrat-700 font-semibold ">Graphic Design</h3>
@@ -131,7 +119,7 @@ function Gallary() {
       </div>
       <div className="p-4 w-full">
         <Link href='' className="block relative rounded overflow-hidden">
-          <Image alt="ecommerce" src={card12}></Image>
+          <Image alt="ecommerce" src={'/images/product-cover-5.png'}width={239} height={300}></Image>
         </Link>
         <div className="mt-4">
         <h3 className="text-black text-sm montserrat-700 font-semibold ">Graphic Design</h3>

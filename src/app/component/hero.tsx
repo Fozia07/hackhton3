@@ -1,12 +1,16 @@
 import Image from 'next/image'
 import React from 'react'
-import img1 from '@/app/public/shop-hero-1-product-slide-1.jpg'
+
+
 function Hero() {
   return (
     
-        <div className='container mx-auto max-w-screen-2xl h-[300px] md:[400px] lg:h-[800px] md:mb-10'>
+        <div className='container mx-auto max-w-screen-2xl h-[300] md:[400] lg:h-[800] px-8  md:mb-10'>
             <div className=' absolute w-full '>
-            <Image src={img1} alt=''></Image>
+            <Image src={'/images/shop-hero-1-product-slide-1.jpg'} 
+               width={1440} height={716}
+             alt=''
+             className='object-cover w-full h-full'></Image>
             </div>
             <div className="relative max-w-5xl h-96 pb-12 gap-y-7 text-center px-4 md:right-20 md:top-40 ">
                 <h6 className='montserrat-400 text-xs text-white md:text-base px-4'>summer 2020</h6>

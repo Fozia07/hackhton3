@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import pic1 from '@/app/public/col-md-4 (5).png'
 import { ChevronRight } from 'lucide-react'
 function Feature() {
   return (
@@ -9,7 +8,7 @@ function Feature() {
             <div className='grid grid-cols-1 md:grid-cols-2'>
                 {/* righthand side */}
                 <div>
-                  <Image src={pic1} alt=""></Image>
+                  <Image src={'/images/col-md-4 (5).png'} alt=""></Image>
                 {/* lefthand side */}
                 <div className='grid grid-cols-1 md:grid-cols-2'>
                     <div>
