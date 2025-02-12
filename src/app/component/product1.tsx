@@ -17,24 +17,24 @@ function Product1() {
             {/* left side div */}
              <div className=''>
                 <div >
-                 <Image src={'/images/single-product-1-cover-2.jpg'} alt=""></Image>
+                 <Image src={'/images/single-product-1-cover-2.jpg'} alt="" width={300} height={280}></Image>
                 </div>
                 <div className='flex'>
-                    <Image src={'/images/single-product-1-thumb-1.jpg'} alt=""></Image>
-                    <Image src={'/images/carouselCaptions.png'} alt=""></Image>
+                    <Image src={'/images/single-product-1-thumb-1.jpg'} alt="" width={300} height={280}></Image>
+                    <Image src={'/images/carouselCaptions.png'} alt="" width={300} height={280}></Image>
                 </div>
              </div>
             {/* right side div */}
              <div className='mt-7'>
                 <h1 className='montserrat-400 text-xl'>Floating Phone</h1>
-                <Image src={'/images/Frame 31.png'} alt="" className='ml-16 py-3'></Image>
+                <Image src={'/images/Frame 31.png'} alt=""width={300} height={280} className='ml-16 py-3'></Image>
                 <h5 >$1,139,33</h5>
                 <h6 className='montserrat-700 text-sm py-3'>Availability  :<span className='monserrat-700 text-sm text-blue-900'>In Stock </span></h6>
                 <p className='montserrat-400 text-sm '>Met minim Mollie non desert Alamo est sit cliquey dolor 
                  do met sent. RELIT official consequent door ENIM RELIT Mollie. 
                   Excitation venial consequent sent nostrum met.</p>
                 <div className='my-6 px-10'>
-                <Image src={'/images/product-colors.png'} alt=""></Image>
+                <Image src={'/images/product-colors.png'} alt="" width={300} height={280}></Image>
                 </div>
                 <div className='flex gap-4 mx-10'>
                     <button className='montserrat-700 text-sm bg-blue-500 hover:bg-blue-300'>Select Options</button>

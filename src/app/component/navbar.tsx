@@ -31,7 +31,7 @@ function Navbar() {
           <li className="text-black-700 hover:text-blue-600 montserrat "><Link href="/about">About</Link></li>
           <li className="text-black-700 hover:text-blue-600 montserrat "><Link href="/gallary">Blog</Link></li>
           <li className="text-black-700 hover:text-blue-600 montserrat "><Link href="/contact">Contact</Link></li>
-          <li className="text-black-700 hover:text-blue-600 montserrat "><Link href="/">Pages</Link></li>
+          <li className="text-black-700 hover:text-blue-600 montserrat "><Link href="/desktopProduct">Pages</Link></li>
           
         </ul>
       </SheetDescription>

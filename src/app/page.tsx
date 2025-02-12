@@ -6,7 +6,9 @@ import Carousel1 from "./component/carousel1";
 import Container1 from "./component/container1";
 import Feature1 from "./component/feature1";
 
-export default function Home() {
+
+function Home(){
+
   return (
     <div>
       <Hero/>
@@ -17,4 +19,4 @@ export default function Home() {
       <Feature1/>
     </div>
   )}
-    
+  export default Home
