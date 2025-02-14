@@ -21,7 +21,7 @@ useEffect(()=>{
 },[])
 
   return (
-    <div className='max-w-screen-2xl lg:h-[1200px] py-10 px-8 mx-auto  '>
+    <div className='max-w-screen-2xl lg:h-[1200px] mx-auto pb-20 lg:pb-4'>
       <div className='w-full'>
         <div className=' h-40 lg:max-w-2xl px-20  text-center'>
            <h1 className="montserrat-700 text-2xl  "> Featured Products</h1>
